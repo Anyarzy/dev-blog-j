@@ -7,7 +7,10 @@ import path from "path";
 export default defineConfig({
     plugins: [react(), tailwindcss()],
     server: {
+        host: 'localhost', // explicitly use localhost
+        port: 5173, // default Vite port
         open: true, // open browser
+        strictPort: false, // allow fallback to another port if 5173 is busy
     },
     resolve: {
         alias: {
