@@ -1,0 +1,6 @@
+# robots.txt for dev-blog-simple-memo
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dev-blog-simple-memo.app/sitemap.xml
