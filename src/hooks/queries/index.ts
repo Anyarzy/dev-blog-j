@@ -2,3 +2,4 @@ export * from './usePosts';
 export * from './usePost';
 export * from "./keys";
 export * from "./useInfinitePosts";
+export * from "./useComments";
